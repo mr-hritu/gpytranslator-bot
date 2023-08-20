@@ -5,7 +5,7 @@ prefix: list = ["/", "!", "#", "."]
 
 
 start_message_text: str = """
-Hello {} \U0001F60E I am GpyTranslatorBot AKA Gipy \ud83e\udd16
+Hello {} \U0001F60E I am GpyTranslatorBot \ud83e\udd16
 
 Send any text or poll which you would like to translate for another language.
 
@@ -14,7 +14,7 @@ Send any text or poll which you would like to translate for another language.
 /help - Show this help message
 /language - Set your main language
 
-If you have questions about this bot or bots' development__ -  Feel free to put your question in @TDICSupport
+If you have questions about this bot or bots' development__ -  Feel free to put your question in @PRIVATES_CHATS
 
 Enjoy! ☺"""
 
@@ -29,7 +29,7 @@ start_message_reply_markup = InlineKeyboardMarkup(
         [
             InlineKeyboardButton("🔍 Inline here", switch_inline_query_current_chat=" "),
             InlineKeyboardButton(
-                "💳 Donate", url="https://www.paypal.com/paypalme/itayki"
+                "💳 Donate", url="https://t.me/prime_hritu"
             ),
         ],
         [
@@ -37,8 +37,8 @@ start_message_reply_markup = InlineKeyboardMarkup(
             InlineKeyboardButton("Credits 💚", callback_data=b"Credits"),
         ],
         [
-            InlineKeyboardButton("📣 Channel", url="https://t.me/TDICProjects"),
-            InlineKeyboardButton("Group 👥", url="https://t.me/TDICSupport"),
+            InlineKeyboardButton("📣 Channel", url="https://t.me/Private_Bots"),
+            InlineKeyboardButton("Group 👥", url="https://t.me/Privates_Chats"),
         ],
     ]
 )
@@ -57,12 +57,9 @@ error_message_markup = InlineKeyboardMarkup(
 
 
 credits: str = """Development 🧑‍💻
- • @MrCentimetre
- • @itayki
- • @rojserbest
-
-Inspiration 👨🏻‍🏫
- • @DavideGalilei"""
+ • @Prime_Hritu
+ • @Prime_Venom
+ • K K"""
 
 help_text: str = """
 **GpyTranslate Bot**
@@ -81,22 +78,22 @@ Just send copied text or forward message with other language to GpyTranslator Bo
   - /ocr - To get text from image. (the text of in the image must to be in english, else see /ocrlang) (First you should send a image and then send /ocr as a reply.)
   - /ocrlang (language code (ISO 639-2)) - To get text from image. (the language parameter is the language of the text in the image) (First you should send a image and then send /ocrlang (language) as a reply.)
 **Translate in inline mode**
- - @GpyTranslatorBot (language code (ISO 639-1)) (text)
+ - @Google_trans_RoBot (language code (ISO 639-1)) (text)
 **set your default language (private only)**
  - /lang (language code (ISO 639-1)) - set your default language
 
 __If you do not specify any language code, the given text will be translated to English.__
 [for information about the language codes format click here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 ---
-Find a problem? Send to @MrCentimetre
-coded by @MrCentimetreLK and @itayki by using @DavideGalilei's Library with 💚
+Find a problem? Send to @Prime_Hritu
+coded by @Prime_Hritu and @Prime_Venom by using  Python Library with 💚
 """
 
 donate_text: str = """
-It's just a command \ud83d\ude09 But you can contact me - @MrCentimetre
+It's just a command \ud83d\ude09 But you can contact me - @Prime_Hritu
 
 For donations for server maintenance:
-https://www.paypal.com/paypalme/itayki
+https://t.me/prime_hritu
 """
 
 language_text: str = """
@@ -127,7 +124,7 @@ translate_string_two: str = (
 
 inline_text_string_one: str = """Translate from {} to {}"""
 
-error_msg_string: str = """**Error:**  \n\n `{}` \n\n **forward this message to https://t.me/TDICSupport if you see this error again, try to forward your message too for better help**"""
+error_msg_string: str = """**Error:**  \n\n `{}` \n\n **forward this message to https://t.me/Privates_Chats if you see this error again, try to forward your message too for better help**"""
 
 help_group_string: str = """To get help click on the button below"""
 
