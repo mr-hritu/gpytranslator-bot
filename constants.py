@@ -5,7 +5,7 @@ prefix: list = ["/", "!", "#", "."]
 
 
 start_message_text: str = """
-Hello {} \U0001F60E I am GpyTranslatorBot \ud83e\udd16
+Hello {} \U0001F60E I am @Google_trans_RoBot \ud83e\udd16
 
 Send any text or poll which you would like to translate for another language.
 
@@ -23,7 +23,7 @@ start_message_reply_markup = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 "➕ Add me to a Group ➕",
-                url="http://t.me/GpyTranslatorBot?startgroup=tr",
+                url="http://t.me/Google_trans_RoBot?startgroup=tr",
             )
         ],
         [
